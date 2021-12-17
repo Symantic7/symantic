@@ -8,9 +8,10 @@ Forum App, with a frontend built in React & Redux and a backend built in Django 
 
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
 
-Check out [FRONTEND LIVE DEMO](https://forum-prod-frontend.herokuapp.com/) here!!
+Check out [FRONTEND LIVE DEMO](https://symantic-frontend.herokuapp.com/) here!!
 
 Check out [API LIVE DEMO](https://forum-prod-api.herokuapp.com/) here!!
+![image](https://user-images.githubusercontent.com/95646459/146615731-cbc97b72-96b7-451c-9f8a-a532a5862276.png)
 
 ## Tech used
 
