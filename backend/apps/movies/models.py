@@ -3,11 +3,13 @@ from cloudinary.models import CloudinaryField
 from apps.categories.models import Category
 # Create your models here.
 
+
 class Movie(models.Model):
     MY_CHOICES = (
         ('Newly Released', 'Newly Released'),
         ('Coming Soon', 'Coming Soon')
     )
+
     class Meta(object):
         db_table = 'movie'
     name = models.CharField(
@@ -23,7 +25,7 @@ class Movie(models.Model):
         'image mobile', blank=True, null=True
     )
     release_type = models.CharField(
-        'release_type', blank=False, null=False, max_length=50, choices= MY_CHOICES
+        'release_type', blank=False, null=False, max_length=50, choices=MY_CHOICES
     )
     category_id = models.ForeignKey(
         Category, on_delete=models.CASCADE
@@ -32,7 +34,7 @@ class Movie(models.Model):
         'rating', blank=False, null=False
     )
     release_date = models.IntegerField(
-        'release date' , blank=False, null=False
+        'release date', blank=False, null=False
     )
     trailer_link = models.CharField(
         'Trailer Link', blank=False, null=False, max_length=500
@@ -43,3 +45,6 @@ class Movie(models.Model):
     updated_at = models.DateTimeField(
         'Updated Datetime', blank=True, auto_now=True
     )
+
+    def __str__(self):
+        return self.name
