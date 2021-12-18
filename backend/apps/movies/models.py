@@ -31,7 +31,7 @@ class Movie(models.Model):
         Category, on_delete=models.CASCADE
     )
     rating = models.DecimalField(
-        'rating', blank=False, null=False
+        'rating', blank=False, null=False, decimal_places=2, max_digits=3
     )
     release_date = models.IntegerField(
         'release date', blank=False, null=False
