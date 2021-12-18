@@ -9,6 +9,7 @@ import { getMovies } from '../reducks/movies/selectors';
 import queryString from 'query-string';
 import API from '../API';
 import Card from '../components/common/Card';
+
 const api = new API();
 const Home = () => {
     const parsed = queryString.parse(window.location.search);
@@ -41,12 +42,19 @@ const Home = () => {
                     <div class="coverdetails m-25">
                         <div class="row sp-coverdetails">
                             <div class="trailer m-10 row">
-                                <img src={ImgButton} alt="" />
-                                <div class="p-10">Watch Trailer</div>
+                                <a href="https://www.youtube.com/watch?v=N_gD9-Oa0fg&ab_channel=JamesBond007" target="_blank">
+                                    <img src={ImgButton} alt="" />
+                                </a>
+                                <div class="p-10">
+                                    <a href="https://www.youtube.com/watch?v=N_gD9-Oa0fg&ab_channel=JamesBond007" target="_blank">
+                                        Watch Trailer
+                                    </a>
+                                </div>
                             </div>
                             <div class="m-10">
-                                <p class="date">October 1st</p>
-                                In cinemas
+                                In theaters
+                                <p class="date">April 2020</p>
+                                
                             </div>
                         </div>
                         <div class="cover-description m-10">
@@ -62,7 +70,7 @@ const Home = () => {
                 <img src={Imgbutton} class="sp-backgroundcover" alt="" />
             </section>
             <section class="content">
-                <h1 class="section-heading m-20 p-10">Newly Released</h1>
+                <h1 class="section-heading m-20">Newly Released</h1>
                 {moviesNewReleased && moviesNewReleased.results.length > 0 ? (
                     <div class="grid">
                         {moviesNewReleased.results.map(movie => (
@@ -71,7 +79,7 @@ const Home = () => {
                     </div>
                 ) : (
                     <div class="no-post">
-                        <p>No movies here yet...</p>
+                        <p>No movies available at this time.</p>
                     </div>
                 )}
 
@@ -86,7 +94,7 @@ const Home = () => {
                     </div>
                 ) : (
                     <div class="no-post">
-                        <p>No movies here yet...</p>
+                        <p>No movies available at this time.</p>
                     </div>
                 )}
             </section>

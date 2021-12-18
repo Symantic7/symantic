@@ -45,7 +45,7 @@ const Category = () => {
             <section class="content">
                 <div class="pt">
                     <h1 id="actions" class="section-heading m-20 p-10">
-                        Actions
+                        Action
                     </h1>
                 </div>
                 {categoryAction && categoryAction.results.length > 0 ? (
@@ -56,7 +56,7 @@ const Category = () => {
                     </div>
                 ) : (
                     <div class="no-post">
-                        <p>No movies here yet...</p>
+                        <p>No movies available at this time.</p>
                     </div>
                 )}
                 <hr class="divider" />
@@ -71,7 +71,7 @@ const Category = () => {
                     </div>
                 ) : (
                     <div class="no-post">
-                        <p>No movies here yet...</p>
+                        <p>No movies available at this time.</p>
                     </div>
                 )}
                 <hr class="divider" />
@@ -86,7 +86,7 @@ const Category = () => {
                     </div>
                 ) : (
                     <div class="no-post">
-                        <p>No movies here yet...</p>
+                        <p>No movies available at this time.</p>
                     </div>
                 )}
 
@@ -103,7 +103,7 @@ const Category = () => {
                     </div>
                 ) : (
                     <div class="no-post">
-                        <p>No movies here yet...</p>
+                        <p>No movies available at this time.</p>
                     </div>
                 )}
             </section>

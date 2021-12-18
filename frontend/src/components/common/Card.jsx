@@ -27,7 +27,7 @@ const Card = ({ movie }) => {
                     <div class="row space-between">
                         <div>
                             <img src={Imgstar} alt="" />
-                            <span>4.6</span>
+                            <span>{movie.rating}</span>
                             <span class="dark">/5</span>
                         </div>
                         <div class="trailer row">

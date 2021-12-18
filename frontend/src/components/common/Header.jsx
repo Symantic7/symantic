@@ -43,7 +43,7 @@ const Header = () => {
                         </div>
                         <div class="favourites m-15 row" onClick={() => dispatch(push('/favourites'))}>
                             <div class="p-10">Favourites</div>
-                            <img src={ImgHeart} alt="" />
+                            <img src={ImgHeart} class="p-10" alt="" />
                         </div>
                     </div>
                 </div>
