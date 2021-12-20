@@ -41,7 +41,7 @@ const Home = () => {
                 <div class="gradient">
                     <div class="coverdetails m-25">
                         <div class="row sp-coverdetails">
-                            <div class="trailer m-10 row">
+                            <div class="trailer-btn m-10 row">
                                 <a href="https://www.youtube.com/watch?v=N_gD9-Oa0fg&ab_channel=JamesBond007" target="_blank">
                                     <img src={ImgButton} alt="" />
                                 </a>
@@ -57,7 +57,7 @@ const Home = () => {
                                 
                             </div>
                         </div>
-                        <div class="cover-description m-10">
+                        <div class="banner-text">
                             <p>
                                 James Bond has left active service. His peace is short-lived when Felix Leiter, an old
                                 friend from the CIA, turns up asking for help, leading Bond onto the trail of a

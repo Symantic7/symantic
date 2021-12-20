@@ -19,7 +19,7 @@ const Card = ({ movie }) => {
         }
     }, [favourites]);
     return (
-        <div>
+        <div class="card">
             <div class="cards m-10">
                 <img class="cardimage" src={movie.image} alt="" />
                 <div class="carddetails">
@@ -32,7 +32,7 @@ const Card = ({ movie }) => {
                         </div>
                         <div class="trailer row">
                             <img src="images/arrow.svg" alt="" />
-                            <div class="btn-text">Trailer</div>
+                            <a class ="trailer-link" href={movie.trailer_link} target="_blank"><div class="btn-text">&#9655; Trailer</div></a>
                         </div>
                     </div>
                 </div>

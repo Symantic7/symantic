@@ -6,7 +6,7 @@ const MenuIcon = () => {
     const dispatch = useDispatch();
     const [rotateMenu, setRotateMenu] = useState(false);
     const handleRotate = () => setRotateMenu(!rotateMenu);
-    const rotate = rotateMenu ? 'rotate(60deg)' : 'rotate(0)';
+    const rotate = rotateMenu ? 'rotate(90deg)' : 'rotate(0)';
     return (
         <>
             <img
@@ -15,11 +15,14 @@ const MenuIcon = () => {
                 style={{ transform: rotate, transition: 'all 0.1s linear' }}
                 onClick={handleRotate}
             />
-            {rotate == 'rotate(60deg)' ? (
+            {rotate == 'rotate(90deg)' ? (
                 <div className="togglemenu">
+                    <div class="favourites m-15 row" onClick={() => dispatch(push('/favourites'))}>
+                        <div class="p-10">Favourites</div>
+                    </div>
                     <div class="category m-15 row">
                         <div class="p-10" onClick={() => dispatch(push('/category#actions'))}>
-                            Actions
+                            Action
                         </div>
                     </div>
                     <div class="category m-15 row">
@@ -36,9 +39,6 @@ const MenuIcon = () => {
                         <div class="p-10" onClick={() => dispatch(push('/category#horror'))}>
                             Horror
                         </div>
-                    </div>
-                    <div class="favourites m-15 row" onClick={() => dispatch(push('/favourites'))}>
-                        <div class="p-10">Favourites</div>
                     </div>
                 </div>
             ) : null}

@@ -44,7 +44,7 @@ const Category = () => {
             <Header />
             <section class="content">
                 <div class="pt">
-                    <h1 id="actions" class="section-heading m-20 p-10">
+                    <h1 id="actions" class="section-heading m-20">
                         Action
                     </h1>
                 </div>

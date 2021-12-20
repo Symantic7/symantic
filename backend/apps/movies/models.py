@@ -37,7 +37,7 @@ class Movie(models.Model):
         'release date', blank=False, null=False
     )
     trailer_link = models.CharField(
-        'Trailer Link', blank=False, null=False, max_length=500
+        'Trailer_Link', blank=False, null=False, max_length=500
     )
     created_at = models.DateTimeField(
         'Created Datetime', blank=True, auto_now_add=True
