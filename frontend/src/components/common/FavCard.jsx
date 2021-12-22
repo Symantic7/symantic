@@ -9,7 +9,7 @@ const FavCard = ({ favourite }) => {
     return (
         <div>
             <div class="cards m-10">
-                <img class="cardimage" src={favourite.image} alt="" />
+                <img class="cardimage fav-movie-poster" src={favourite.image} alt="" />
                 <div class="carddetails">
                     <div class="row space-between">
                         <div>
@@ -19,7 +19,7 @@ const FavCard = ({ favourite }) => {
                         </div>
                         <div class="trailer row">
                             <img src="images/arrow.svg" alt="" />
-                            <div class="btn-text">Trailer</div>
+                            <div class="btn-text">&#9655; Trailer</div>
                         </div>
                     </div>
                 </div>

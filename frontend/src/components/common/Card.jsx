@@ -28,7 +28,7 @@ const Card = ({ movie }) => {
                         <div>
                             <img src={Imgstar} alt="" />
                             <span>{movie.rating}</span>
-                            <span class="dark">/5</span>
+                            <span class="dark">/10</span>
                         </div>
                         <div class="trailer row">
                             <img src="images/arrow.svg" alt="" />

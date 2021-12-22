@@ -21,24 +21,24 @@ const MenuIcon = () => {
                         <div class="p-10">Favourites</div>
                     </div>
                     <div class="category m-15 row">
-                        <div class="p-10" onClick={() => dispatch(push('/category#actions'))}>
+                        <a class="p-10 menu-option" href='/category/#action'>
                             Action
-                        </div>
+                        </a>
                     </div>
                     <div class="category m-15 row">
-                        <div class="p-10" onClick={() => dispatch(push('/category#comedy'))}>
+                        <a class="p-10 menu-option" href='/category/#comedy'>
                             Comedy
-                        </div>
+                        </a>
                     </div>
                     <div class="category m-15 row">
-                        <div class="p-10" onClick={() => dispatch(push('/category#drama'))}>
+                        <a class="p-10 menu-option" href='/category/#drama'>
                             Drama
-                        </div>
+                        </a>
                     </div>
                     <div class="category m-15 row">
-                        <div class="p-10" onClick={() => dispatch(push('/category#horror'))}>
+                        <a class="p-10 menu-option" href='/category/#horror'>
                             Horror
-                        </div>
+                        </a>
                     </div>
                 </div>
             ) : null}

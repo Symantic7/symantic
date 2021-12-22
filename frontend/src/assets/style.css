@@ -208,6 +208,13 @@ header .sp-logo {
     background-color: rgb(0, 0, 0, 0.9);
     border-bottom-right-radius: 20px;
 }
+.menu-option {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+.menu-option:visited {
+    text-decoration: none;
+}
 @media screen and (max-width: 800px) {
     header .menus {
         display: none;
@@ -340,6 +347,10 @@ Content
     height: 80%;
     width: 100%;
     object-fit: cover;
+}
+.fav-movie-poster {
+    height: 85% !important;
+    object-fit: fill !important;
 }
 .content .cards .carddetails .dark {
     color: rgb(224, 224, 224, 0.5);
