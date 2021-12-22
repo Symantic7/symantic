@@ -25,7 +25,7 @@ class Movie(models.Model):
         'image mobile', blank=True, null=True
     )
     release_type = models.CharField(
-        'release_type', blank=False, null=False, max_length=50, choices=MY_CHOICES
+        'release_type', blank=True, null=True, max_length=50, choices=MY_CHOICES
     )
     category_id = models.ForeignKey(
         Category, on_delete=models.CASCADE
