@@ -30,8 +30,8 @@ class Movie(models.Model):
     category_id = models.ForeignKey(
         Category, on_delete=models.CASCADE
     )
-    rating = models.DecimalField(
-        'rating', blank=False, null=False, decimal_places=2, max_digits=3
+    rating = models.IntegerField(
+        'rating', blank=False, null=False
     )
     release_date = models.IntegerField(
         'release date', blank=False, null=False
