@@ -310,9 +310,6 @@ Cover
         margin: auto;
         text-align: center;
     }
-    .cover .gradient {
-        bottom: 0;
-    }
     .cover .gradient .coverdetails .cover-description {
         width: 100%;
     }
