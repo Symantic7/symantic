@@ -61,6 +61,7 @@ a:active {
     border: 4px solid #000;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 17px;
     height: 40px;
     width: 100px;
 }
@@ -137,6 +138,9 @@ a:active {
     }
     .section-heading {
         padding-top: 20px;
+    }
+    .watch-trailer-btn {
+        padding-bottom: 30px !important;
     }
 }
 /*******************************************************

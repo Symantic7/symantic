@@ -45,13 +45,13 @@ const Home = () => {
                                 <a href="https://www.youtube.com/watch?v=N_gD9-Oa0fg&ab_channel=JamesBond007" target="_blank">
                                     <img src={ImgButton} alt="" />
                                 </a>
-                                <div class="p-10 date">
-                                    <a href="https://www.youtube.com/watch?v=N_gD9-Oa0fg&ab_channel=JamesBond007" target="_blank">
+                                <div class="p-10">
+                                    <a class="watch-trailer-btn" href="https://www.youtube.com/watch?v=N_gD9-Oa0fg&ab_channel=JamesBond007" target="_blank">
                                         Watch Trailer
                                     </a>
                                 </div>
                             </div>
-                            <div class="m-10 date">
+                            <div class="m-10">
                                 In theaters
                                 <p class="date">April 2020</p>
                                 
