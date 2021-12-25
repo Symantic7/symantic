@@ -133,6 +133,10 @@ a:active {
     }
     .banner-overlay {
         padding-bottom: 17px !important;
+        margin-bottom: 10px !important;
+    }
+    .section-heading {
+        padding-top: 20px;
     }
 }
 /*******************************************************
