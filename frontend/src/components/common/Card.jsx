@@ -30,10 +30,14 @@ const Card = ({ movie }) => {
                             <span>{movie.rating}</span>
                             <span class="dark">/10</span>
                         </div>
-                        <div class="trailer row">
+                        {/* <div class="trailer-row">
                             <img src="images/arrow.svg" alt="" />
                             <a class ="trailer-link" href={movie.trailer_link} target="_blank"><div class="btn-text">&#9655; Trailer</div></a>
-                        </div>
+                        </div> */}
+                        <button class="trailer">
+                            <img src="images/arrow.svg" alt="" />
+                            <a class="trailer-link" href={movie.trailer_link} target="_blank">&#9655; Trailer</a> 
+                        </button>
                     </div>
                 </div>
                 {showLikeButton && (
