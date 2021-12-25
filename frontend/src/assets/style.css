@@ -140,7 +140,7 @@ a:active {
         padding-top: 20px;
     }
     .watch-trailer-btn {
-        font-size: 13px;
+        font-size: 11px;
         padding-bottom: 30px !important;
     }
 }
@@ -276,7 +276,7 @@ Cover
 .cover .gradient {
     /* background: linear-gradient(rgb(41, 40, 40, 0.6) 10%, rgb(0, 0, 0, 0) 50%, rgb(41, 40, 40)); */
     position: absolute;
-    height: 90%;    
+    height: 90%;
     width: 100%;
     z-index: 2;
 }
