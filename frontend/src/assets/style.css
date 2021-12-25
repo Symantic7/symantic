@@ -76,7 +76,6 @@ a:active {
     height: 30px;
     padding-bottom: 6px;
     width: fit-content;
-    border: 1px solid #000
 }
 
 .trailer-btn:hover {
@@ -131,6 +130,9 @@ a:active {
         padding-left: 16%;
         text-align: center !important;
         width: 90%;
+    }
+    .banner-overlay {
+        padding-bottom: 17px !important;
     }
 }
 /*******************************************************
@@ -263,11 +265,19 @@ Cover
     object-fit: cover;
 }
 .cover .gradient {
-    background: linear-gradient(rgb(41, 40, 40, 0.6) 10%, rgb(0, 0, 0, 0) 50%, rgb(41, 40, 40));
+    /* background: linear-gradient(rgb(41, 40, 40, 0.6) 10%, rgb(0, 0, 0, 0) 50%, rgb(41, 40, 40)); */
     position: absolute;
-    height: 90%;
+    height: 90%;    
     width: 100%;
     z-index: 2;
+}
+.banner-overlay {
+    position: relative;
+    bottom: 6%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 99%;
+    padding: 0.5%;
 }
 .cover .gradient .coverdetails {
     position: absolute;

@@ -57,13 +57,16 @@ const Home = () => {
                                 
                             </div>
                         </div>
-                        <div class="banner-text">
-                            <p>
-                                James Bond has left active service. His peace is short-lived when Felix Leiter, an old
-                                friend from the CIA, turns up asking for help, leading Bond onto the trail of a
-                                mysterious villain armed with dangerous new technology.
-                            </p>
+                        <div class="banner-overlay">
+                            <div class="banner-text">
+                                <p>
+                                    James Bond has left active service. His peace is short-lived when Felix Leiter, an old
+                                    friend from the CIA, turns up asking for help, leading Bond onto the trail of a
+                                    mysterious villain armed with dangerous new technology.
+                                </p>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
                 <img src={ImgCover} alt="" class="backgroundcover" />
