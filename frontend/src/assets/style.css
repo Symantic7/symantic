@@ -140,6 +140,7 @@ a:active {
         padding-top: 20px;
     }
     .watch-trailer-btn {
+        font-size: 13px;
         padding-bottom: 30px !important;
     }
 }
