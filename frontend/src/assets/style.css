@@ -134,13 +134,16 @@ a:active {
     }
     .banner-overlay {
         padding-bottom: 17px !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 20px !important;
     }
     .section-heading {
         padding-top: 20px;
     }
     .watch-trailer-btn {
-        padding-bottom: 30px !important;
+        font-size: 15px;
+    }
+    .p-10 .watch-trailer-btn {
+        padding-bottom: 10px !important;
     }
 }
 /*******************************************************
@@ -281,7 +284,7 @@ Cover
 }
 .banner-overlay {
     position: relative;
-    bottom: 6%;
+    bottom: 16%;
     background: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     width: 99%;
