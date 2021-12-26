@@ -51,10 +51,9 @@ const Home = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div class="m-10">
+                            <div class="date">
                                 In theaters
                                 <p class="date">April 2020</p>
-                                
                             </div>
                         </div>
                         <div class="banner-overlay">
