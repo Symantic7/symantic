@@ -3,24 +3,26 @@ import Imgstar from '../../assets/img/star.png';
 import ImgHeart from '../../assets/img/red_heart.svg';
 import { useDispatch } from 'react-redux';
 import { deleteFavourite } from '../../reducks/favourites/operations';
+import {Card} from './Card';
 
 const FavCard = ({ favourite }) => {
     const dispatch = useDispatch();
     return (
-        <div>
+        <div class="card">
             <div class="cards m-10">
-                <img class="cardimage fav-movie-poster" src={favourite.image} alt="" />
+                <img class="cardimage movie-poster" src={favourite.image} alt="" />
                 <div class="carddetails">
+                <p>{favourite.name}</p>
                     <div class="row space-between">
                         <div>
                             <img src={Imgstar} alt="" />
-                            <span>4.6</span>
-                            <span class="dark">/5</span>
+                            <span>{favourite.rating}</span>
+                            <span class="dark">/10</span>
                         </div>
-                        <div class="trailer row">
+                        <button class="trailer">
                             <img src="images/arrow.svg" alt="" />
-                            <div class="btn-text">&#9655; Trailer</div>
-                        </div>
+                            <a class="trailer-link" href={favourite.trailer_link} target="_blank">&#9655; Trailer</a> 
+                        </button>
                     </div>
                 </div>
                 <div class="like" onClick={() => dispatch(deleteFavourite(favourite.id))}>

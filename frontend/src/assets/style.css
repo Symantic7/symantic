@@ -376,7 +376,7 @@ Content
 .cardimage:hover {
     opacity: 0.7;
 }
-.fav-movie-poster {
+.movie-poster {
     height: 85% !important;
     object-fit: fill !important;
 }
