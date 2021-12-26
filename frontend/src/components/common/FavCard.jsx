@@ -3,7 +3,6 @@ import Imgstar from '../../assets/img/star.png';
 import ImgHeart from '../../assets/img/red_heart.svg';
 import { useDispatch } from 'react-redux';
 import { deleteFavourite } from '../../reducks/favourites/operations';
-import {Card} from './Card';
 
 const FavCard = ({ favourite }) => {
     const dispatch = useDispatch();
