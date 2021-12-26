@@ -21,7 +21,7 @@ const Card = ({ movie }) => {
     return (
         <div class="card">
             <div class="cards m-10">
-                <img class="cardimage movie-poster" src={movie.image} alt="" />
+                <img class="cardimage" src={movie.image} alt="" />
                 <div class="carddetails">
                     <p>{movie.name}</p>
                     <div class="row space-between">
