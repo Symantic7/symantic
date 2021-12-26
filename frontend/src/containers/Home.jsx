@@ -46,7 +46,7 @@ const Home = () => {
                                     <img src={ImgButton} alt="" />
                                 </a>
                                 <div class="p-10">
-                                    <a class="watch-trailer-btn" href="https://www.youtube.com/watch?v=N_gD9-Oa0fg&ab_channel=JamesBond007" target="_blank">
+                                    <a href="https://www.youtube.com/watch?v=N_gD9-Oa0fg&ab_channel=JamesBond007" target="_blank">
                                         Watch Trailer
                                     </a>
                                 </div>

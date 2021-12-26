@@ -134,17 +134,16 @@ a:active {
     }
     .banner-overlay {
         padding-bottom: 17px !important;
-        margin-bottom: 20px !important;
+        
     }
     .section-heading {
         padding-top: 20px;
     }
-    .watch-trailer-btn {
-        font-size: 15px;
+    .trailer-btn p {
+        position: relative;
+        
     }
-    .p-10 .watch-trailer-btn {
-        padding-bottom: 10px !important;
-    }
+    
 }
 /*******************************************************
 HEADER
@@ -318,6 +317,7 @@ Cover
         padding-bottom: 10%;
     }
     .cover .backgroundcover {
+        height: 100vh;
         display: none;
     }
     .cover .sp-backgroundcover {
