@@ -366,15 +366,34 @@ Content
     cursor: pointer;
     width: 65px;
 }
-
 .content .cards .cardimage {
-    height: 80%;
+    height: 28em;
     width: 100%;
     object-fit: cover;
 }
-
 .cardimage:hover {
     opacity: 0.7;
+}
+.movie {
+    position: relative;
+    overflow: hidden;
+}
+.movie-description {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(224, 224, 224);
+    font-size: 13px !important;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    transform: translateY(103.8%);
+    transition: transform 0.15s ease-in-out;
+    overflow: hidden;
+    height: 23%;
+}
+.movie:hover .movie-description {
+    transform: translateY(0%);
 }
 .movie-poster {
     height: 85% !important;
